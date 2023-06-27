@@ -1,3 +1,4 @@
+
 # PRACTICA 01 MODULO 01- EJERCICIO GIT
 
 
@@ -22,6 +23,7 @@ git reset --hard <id_commit>
 ```
 Utilicé ese comando para restaurar en el working copy el archivo.
 
+<img width="498" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/57bba532-5180-413a-b7fd-f7b9b7e7a7c2">
 
 
 ## El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?
@@ -30,14 +32,21 @@ No sale conflicto, sale:
 ```
 Already up to date
 ```
-Se debe a que al haber recuperado el commit anterior, no se ha creado ningun nuevo commit, y entonces style y master están alineados, no siendo necesario hacer merge. 
+Se debe a que al haber recuperado el commit anterior, no se ha creado ningun nuevo commit, y entonces las ramas *style* y *master* están alineados, no siendo necesario hacer merge. 
+
 <img width="680" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/5767983e-ef44-49c9-90d4-bfa3a57ced19">
 
 
-
-
 ## El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?
+
+Si, porque había diferencias entre los git-nuestros.md de la rama *styled* con respecto al archivo git-nuestro.md de la rama *htmlify*.
+Los resolví quedando:
+
+<img width="673" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/35e8b77c-affc-4e2d-86b9-e5f5d2e7772a">
+
+PASO 21
 ## El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
+
 ## ¿Qué comando o comandos utilizaste en el paso 25?
 ## El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
 ## ¿Qué comando o comandos utilizaste en el paso 27?
