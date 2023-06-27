@@ -47,7 +47,7 @@ Los resolví quedando:
 PASO 21
 ## El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
 
-No ha habido conflicto porque ha hecho un fast forward
+No ha habido conflicto porque ha hecho un fast forward, master se ha movido a la rama styled, por lo que el archivo mantenido  
 
 ## ¿Qué comando o comandos utilizaste en el paso 25?
 ## El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
