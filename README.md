@@ -44,16 +44,59 @@ Los resolví quedando:
 
 <img width="673" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/35e8b77c-affc-4e2d-86b9-e5f5d2e7772a">
 
-PASO 21
+
 ## El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
 
-No ha habido conflicto porque ha hecho un fast forward, master se ha movido a la rama styled, por lo que el archivo mantenido  
+No ha habido conflicto porque ha hecho un fast forward, master se ha movido a la rama styled, por lo que el archivo mantenido en el commit cuarto ha sido el que había en ese commit. 
+
+<img width="833" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/1d7bb4ea-ceca-4257-bddb-799af34dac24">
+
 
 ## ¿Qué comando o comandos utilizaste en el paso 25?
+El comando ha sido
+´´´
+git graph
+´´´
+<img width="713" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/e4313afb-9c4e-4c2c-8033-2a94521c3155">
+
+También se puede obtener el diagrama en Visual Studio Code con la extension git graph
+<img width="826" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/d4a7632f-17c6-433b-a65c-5dfbdc0e5c73">
+
+
 ## El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
+
+No tengo claro, RESPONDER DESPUES
+
+
 ## ¿Qué comando o comandos utilizaste en el paso 27?
+
+Para deshacer el merge sin recuperar el working copy:
+```
+git reset HEAD~1
+```
+
 ## ¿Qué comando o comandos utilizaste en el paso 28?
+
+Ninguno, ya que al no hacer git remote no se retauran los cambios. 
+
+
 ## ¿Qué comando o comandos utilizaste en el paso 29?
+
+Para eliminar la rama title:
+```
+git branch -D title
+```
+
 ## ¿Qué comando o comandos utilizaste en el paso 30?
+
+Para rehacer el merge primero hay que volver a hacer la rama title.
+Buscamos el commit al que apuntaba dicha rama:
+```
+git reflog
+```
+Obtengo el id del commit
+Muevo HEAD a dicho commit:
+```
+git checkout bf0ef7a
 ## ¿Qué comando o comandos usaste en el paso 32?
 ## ¿Qué comando o comandos usaste en el punto 33?
