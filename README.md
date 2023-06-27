@@ -1,5 +1,6 @@
 # PRACTICA 01 MODULO 01- EJERCICIO GIT
 
+
 ## ¿Qué comando utilizaste en el paso 11? ¿Por qué?
 
 Utilicé el comando siguiente:
@@ -7,6 +8,7 @@ Utilicé el comando siguiente:
 git reset --hard HEAD~1
 ```
 Esto lo hice así para poder recuperar en el working copy los archivos originales en el commit inicial. 
+
 
 ## ¿Que comando utilizaste en el paso 12? ¿Por qué?
 
@@ -23,6 +25,17 @@ Utilicé ese comando para restaurar en el working copy el archivo.
 
 
 ## El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?
+
+No sale conflicto, sale: 
+```
+Already up to date
+```
+Se debe a que al haber recuperado el commit anterior, no se ha creado ningun nuevo commit, y entonces style y master están alineados, no siendo necesario hacer merge. 
+<img width="680" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/5767983e-ef44-49c9-90d4-bfa3a57ced19">
+
+
+
+
 ## El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?
 ## El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
 ## ¿Qué comando o comandos utilizaste en el paso 25?
