@@ -47,6 +47,8 @@ Los resolví quedando:
 PASO 21
 ## El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
 
+No ha habido conflicto porque ha hecho un fast forward
+
 ## ¿Qué comando o comandos utilizaste en el paso 25?
 ## El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
 ## ¿Qué comando o comandos utilizaste en el paso 27?
