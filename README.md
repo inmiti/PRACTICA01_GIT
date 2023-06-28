@@ -98,5 +98,23 @@ Obtengo el id del commit
 Muevo HEAD a dicho commit:
 ```
 git checkout bf0ef7a
+```
+Me salta el siguiente error:
+
+<img width="611" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/880bf774-5faf-4e63-b28a-d525ffd488ed">
+
+
+Entiendo que se debe a que no hice git restore para actualizar los cambios en mi working copy, tal y como ponía el paso 28 "Descartar los cambios". De esa forma utilizo 
+```
+git checkout -f git-nuestro.md
+```
+Para forzar checkout, porque mi version de git no reconoce git restore. 
+
+<img width="606" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/e15ff59d-b4c9-4c48-a692-06c6bf16d942">
+
+Una vez aclarado esto puedo ir al commit que había en title, usando:
+```
+git checkout 
+
 ## ¿Qué comando o comandos usaste en el paso 32?
 ## ¿Qué comando o comandos usaste en el punto 33?
