@@ -106,7 +106,7 @@ Me salta el siguiente error:
 
 Entiendo que se debe a que no hice git restore para actualizar los cambios en mi working copy, tal y como ponía el paso 28 "Descartar los cambios". De esa forma utilizo 
 ```
-git checkout -f git-nuestro.md
+git checkout -- git-nuestro.md
 ```
 Para forzar checkout, porque mi version de git no reconoce git restore. 
 
