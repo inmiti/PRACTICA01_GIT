@@ -93,29 +93,17 @@ Buscamos el commit al que apuntaba dicha rama:
 ```
 git reflog
 ```
-Obtengo el id del commit: bf0ef7a.
-
-Muevo HEAD a dicho commit con el comando:
+Obtengo el id del commit: 532e93f y deshago:
 ```
-git checkout bf0ef7a
+git reset --hard 532e93f
 ```
-Me indica que estoy en "detached HEAD" y creo de nuevo la rama title usando el comando:
-```
-git branch title
-```
-Me cambio a master con el comando:
-```
-git checkout master
-```
-Y ya puedo hacer el merge:
-```
-git merge --no-ff title:
-```
-<img width="565" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/61306e83-1b64-4a78-ab5b-0bccea804bfd">
-
 
 ## ¿Qué comando o comandos usaste en el paso 32?
-
+Cojo el id del commit inicial usando:
+```
+git reflog
+```
+Me cambio usando:
 ```
 git checkout 3b79e59
 ```
