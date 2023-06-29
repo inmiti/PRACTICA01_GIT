@@ -26,14 +26,14 @@ Utilicé ese comando para restaurar en el working copy el archivo.
 <img width="498" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/57bba532-5180-413a-b7fd-f7b9b7e7a7c2">
 
 
-## El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?
+## El merge del paso 13, ¿Causó algún conflicto? ¿Por qué? REVISAR!!!
 
-No sale conflicto porque ha hecho un fast foward
+No sale conflicto porque ha hecho un fast foward 
 
 <img width="680" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/5767983e-ef44-49c9-90d4-bfa3a57ced19">
 
 
-## El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?
+## El merge del paso 19, ¿Causó algún conflicto? ¿Por qué? REVISAR!!!
 
 Si, porque al hacer el merge no fast foward había diferencias entre los git-nuestros.md de la rama *styled* con respecto al archivo git-nuestro.md de la rama *htmlify*.
 Los resolví quedando:
@@ -41,7 +41,7 @@ Los resolví quedando:
 <img width="673" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/35e8b77c-affc-4e2d-86b9-e5f5d2e7772a">
 
 
-## El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
+## El merge del paso 21, ¿Causó algún conflicto? ¿Por qué? REVISAR!!!
 
 No ha habido conflicto porque he hecho un fast forward, master se ha movido a la rama styled, por lo que el archivo mantenido en el commit cuarto ha sido el que había en ese commit. 
 
