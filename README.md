@@ -77,7 +77,10 @@ git reset HEAD~1
 
 ## ¿Qué comando o comandos utilizaste en el paso 28?
 
-Ninguno, ya que al no hacer git remote no se retauran los cambios. 
+Sería git remote, pero en mi versión de git es:
+```
+git checkout -- git-nuestro.md
+```
 
 
 ## ¿Qué comando o comandos utilizaste en el paso 29?
@@ -94,12 +97,22 @@ Buscamos el commit al que apuntaba dicha rama:
 ```
 git reflog
 ```
-Obtengo el id del commit
-Muevo HEAD a dicho commit:
+Obtengo el id del commit: bf0ef7a
+Muevo HEAD a dicho commit con el comando:
 ```
 git checkout bf0ef7a
 ```
-Me salta el siguiente error:
+Me indica que estoy en "detached HEAD" y creo de nuevo la rama title usando el comando:
+```
+git branch title
+```
+Me cambio a master con el comando:
+```
+git checkout master
+```
+Y ya puedo hacer el merge:
+git merge --no-ff title:
+
 
 <img width="611" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/880bf774-5faf-4e63-b28a-d525ffd488ed">
 
