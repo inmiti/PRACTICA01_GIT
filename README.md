@@ -36,7 +36,6 @@ No sale conflicto porque ha hecho un fast foward
 ## El merge del paso 19, ¿Causó algún conflicto? ¿Por qué? 
 
 Si, porque al hacer el merge no fast foward había diferencias entre los git-nuestros.md de la rama *styled* con respecto al archivo git-nuestro.md de la rama *htmlify*.
-Los resolví quedando:
 
 <img width="673" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/35e8b77c-affc-4e2d-86b9-e5f5d2e7772a">
 
