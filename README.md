@@ -8,7 +8,7 @@ Utilicé el comando siguiente:
 ```
 git reset --hard HEAD~1
 ```
-Esto lo hice así para poder recuperar en el working copy los archivos originales en el commit inicial. 
+Esto lo hice así para poder recuperar en el working copy los archivos originales en el commit inicial, perdiendo así los del segundo commit.
 
 
 ## ¿Que comando utilizaste en el paso 12? ¿Por qué?
@@ -28,18 +28,14 @@ Utilicé ese comando para restaurar en el working copy el archivo.
 
 ## El merge del paso 13, ¿Causó algún conflicto? ¿Por qué?
 
-No sale conflicto, sale: 
-```
-Already up to date
-```
-Se debe a que al haber recuperado el commit anterior, no se ha creado ningun nuevo commit, y entonces las ramas *style* y *master* están alineados, no siendo necesario hacer merge. 
+No sale conflicto porque ha hecho un fast foward
 
 <img width="680" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/5767983e-ef44-49c9-90d4-bfa3a57ced19">
 
 
 ## El merge del paso 19, ¿Causó algún conflicto? ¿Por qué?
 
-Si, porque había diferencias entre los git-nuestros.md de la rama *styled* con respecto al archivo git-nuestro.md de la rama *htmlify*.
+Si, porque al hacer el merge no fast foward había diferencias entre los git-nuestros.md de la rama *styled* con respecto al archivo git-nuestro.md de la rama *htmlify*.
 Los resolví quedando:
 
 <img width="673" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/35e8b77c-affc-4e2d-86b9-e5f5d2e7772a">
@@ -47,15 +43,16 @@ Los resolví quedando:
 
 ## El merge del paso 21, ¿Causó algún conflicto? ¿Por qué?
 
-No ha habido conflicto porque ha hecho un fast forward, master se ha movido a la rama styled, por lo que el archivo mantenido en el commit cuarto ha sido el que había en ese commit. 
+No ha habido conflicto porque he hecho un fast forward, master se ha movido a la rama styled, por lo que el archivo mantenido en el commit cuarto ha sido el que había en ese commit. 
 
 <img width="833" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/1d7bb4ea-ceca-4257-bddb-799af34dac24">
 
 
 ## ¿Qué comando o comandos utilizaste en el paso 25?
 El comando ha sido
+
 ´´´
-git graph
+git log --branches --graph --oneline
 ´´´
 <img width="713" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/e4313afb-9c4e-4c2c-8033-2a94521c3155">
 
@@ -65,7 +62,7 @@ También se puede obtener el diagrama en Visual Studio Code con la extension git
 
 ## El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
 
-No tengo claro, RESPONDER DESPUES
+Sí podría, aunque hay bifurcaciones de
 
 
 ## ¿Qué comando o comandos utilizaste en el paso 27?
