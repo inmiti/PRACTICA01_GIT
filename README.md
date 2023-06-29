@@ -62,7 +62,7 @@ También se puede obtener el diagrama en Visual Studio Code con la extension git
 
 ## El merge del paso 26, ¿Podría ser fast forward? ¿Por qué?
 
-Sí podría, aunque hay bifurcaciones de
+Sí podría porque están alineados, no hay bifurcaciones entre ellos.
 
 
 ## ¿Qué comando o comandos utilizaste en el paso 27?
