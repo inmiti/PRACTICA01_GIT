@@ -97,7 +97,8 @@ Buscamos el commit al que apuntaba dicha rama:
 ```
 git reflog
 ```
-Obtengo el id del commit: bf0ef7a
+Obtengo el id del commit: bf0ef7a.
+
 Muevo HEAD a dicho commit con el comando:
 ```
 git checkout bf0ef7a
@@ -111,23 +112,23 @@ Me cambio a master con el comando:
 git checkout master
 ```
 Y ya puedo hacer el merge:
+```
 git merge --no-ff title:
-
-
-<img width="611" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/880bf774-5faf-4e63-b28a-d525ffd488ed">
-
-
-Entiendo que se debe a que no hice git restore para actualizar los cambios en mi working copy, tal y como ponía el paso 28 "Descartar los cambios". De esa forma utilizo 
 ```
-git checkout -- git-nuestro.md
-```
-Para forzar checkout, porque mi version de git no reconoce git restore. 
+<img width="565" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/61306e83-1b64-4a78-ab5b-0bccea804bfd">
 
-<img width="606" alt="image" src="https://github.com/inmiti/PRACTICA01_GIT/assets/118215654/e15ff59d-b4c9-4c48-a692-06c6bf16d942">
-
-Una vez aclarado esto puedo ir al commit que había en title, usando:
-```
-git checkout 
 
 ## ¿Qué comando o comandos usaste en el paso 32?
+
+```
+git checkout 3b79e59
+```
+
 ## ¿Qué comando o comandos usaste en el punto 33?
+
+```
+git checkout master
+```
+
+
+
